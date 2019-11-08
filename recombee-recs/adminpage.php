@@ -1,6 +1,7 @@
 <div class="wrap">
 	<h1>Recombee Recommendations</h1>
 
+	<p><span id="sync_item_props" class="spanlink">Sync all item properties</span></p>
 
 	<p>Syncing to an empty Recombee database almost always results in an error. Do another sync after.</p>
 	<p><span id="sync_all" class="spanlink">Sync all content with Recombee.</span></p>
