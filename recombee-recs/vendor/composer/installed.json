@@ -1,0 +1,97 @@
+[
+    {
+        "name": "recombee/php-api-client",
+        "version": "v2.4.0",
+        "version_normalized": "2.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/recombee/php-api-client.git",
+            "reference": "6dfb0b6a03acde7688bae878a621e9a0b35a18ed"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/recombee/php-api-client/zipball/6dfb0b6a03acde7688bae878a621e9a0b35a18ed",
+            "reference": "6dfb0b6a03acde7688bae878a621e9a0b35a18ed",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "rmccue/requests": "^1.7.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "^6.1.0"
+        },
+        "time": "2019-03-11T13:18:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Recombee\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ondřej Fiedler",
+                "email": "ondrej.fiedler@recombee.com"
+            }
+        ],
+        "description": "PHP client for easy use of the Recombee recommendation API.",
+        "homepage": "https://recombee.com"
+    },
+    {
+        "name": "rmccue/requests",
+        "version": "v1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rmccue/Requests.git",
+            "reference": "87932f52ffad70504d93f04f15690cf16a089546"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rmccue/Requests/zipball/87932f52ffad70504d93f04f15690cf16a089546",
+            "reference": "87932f52ffad70504d93f04f15690cf16a089546",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "requests/test-server": "dev-master"
+        },
+        "time": "2016-10-13T00:11:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Requests": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "ISC"
+        ],
+        "authors": [
+            {
+                "name": "Ryan McCue",
+                "homepage": "http://ryanmccue.info"
+            }
+        ],
+        "description": "A HTTP library written in PHP, for human beings.",
+        "homepage": "http://github.com/rmccue/Requests",
+        "keywords": [
+            "curl",
+            "fsockopen",
+            "http",
+            "idna",
+            "ipv6",
+            "iri",
+            "sockets"
+        ]
+    }
+]
